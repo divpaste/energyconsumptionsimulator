@@ -15,6 +15,9 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+CREATE DATABASE IF NOT EXISTS ecs;
+USE ecs;
+
 --
 -- Table structure for table `user_appliances`
 --
@@ -48,8 +51,12 @@ CREATE TABLE `user_appliances` (
 --
 
 LOCK TABLES `user_appliances` WRITE;
-/*!40000 ALTER TABLE `user_appliances` DISABLE KEYS */;
-INSERT INTO `user_appliances` VALUES ('amey','123',0,1,1,0,0,0,1,0,0,1,0,1,0,1),('arnav','123',0,0,0,0,0,0,0,0,1,1,0,0,0,0),('div','3108',0,0,1,0,0,0,0,0,0,0,0,0,0,0),('parv','parv',0,0,0,0,0,0,0,1,0,0,1,0,1,1);
+/*!40000 ALTER TABLE `user_appliances` DISABLE KEYS*/;
+INSERT INTO `user_appliances` (`username`,`password`,`Fan`,`Air_Conditioner`,`Heater`,`Led`,`Fridge`,`Microwave`,`Kettle`,`Laptop`,`Television`,`Washing_Machine`,`Iron`,`Vaccum_Cleaner`,`Blender`,`Toaster`) VALUES
+('testuser1','test123',0,1,1,0,0,0,1,0,0,1,0,1,0,1),
+('testuser2','test123',0,0,0,0,0,0,0,0,1,1,0,0,0,0),
+('testuser3','test123',0,0,1,0,0,0,0,0,0,0,0,0,0,0),
+('testuser4','test123',0,0,0,0,0,0,0,1,0,0,1,0,1,1);
 /*!40000 ALTER TABLE `user_appliances` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
