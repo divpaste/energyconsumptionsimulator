@@ -7,7 +7,7 @@ import java.sql.*;
 
 class JDBCConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/escdb";
+    private static final String URL = "jdbc:mysql://localhost:3306/ecsdb";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "divyanshu2006";
 
