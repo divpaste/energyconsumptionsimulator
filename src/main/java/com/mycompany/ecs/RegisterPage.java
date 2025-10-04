@@ -13,7 +13,7 @@ public class RegisterPage extends javax.swing.JFrame {
         setResizable(false);
         setSize(510, 400);
 
-        ImageIcon img = new ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\mainLogo.png");
+        ImageIcon img = new ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/mainLogo.png"));
         this.setIconImage(img.getImage());
     }
 

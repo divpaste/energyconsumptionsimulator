@@ -135,7 +135,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\subLogo.png"/>
+              <Image iconType="3" name="/com/mycompany/ecs/Icons/subLogo.png"/>
             </Property>
           </Properties>
         </Component>
@@ -600,7 +600,7 @@
                 <Component class="javax.swing.JLabel" name="fanIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\fanIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/fanIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -682,7 +682,7 @@
                 <Component class="javax.swing.JLabel" name="acIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\acIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/acIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -763,7 +763,7 @@
                 <Component class="javax.swing.JLabel" name="heaterIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\heaterIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/heaterIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -844,7 +844,7 @@
                 <Component class="javax.swing.JLabel" name="ledIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\ledIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/ledIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -925,7 +925,7 @@
                 <Component class="javax.swing.JLabel" name="fridgeIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\fridgeIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/fridgeIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1006,7 +1006,7 @@
                 <Component class="javax.swing.JLabel" name="microwaveIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\microwaveIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/microwaveIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1087,7 +1087,7 @@
                 <Component class="javax.swing.JLabel" name="kettleIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\kettleIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/kettleIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1168,7 +1168,7 @@
                 <Component class="javax.swing.JLabel" name="laptopIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\laptopIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/laptopIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1249,7 +1249,7 @@
                 <Component class="javax.swing.JLabel" name="tvIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\tvIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/tvIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1330,7 +1330,7 @@
                 <Component class="javax.swing.JLabel" name="washingIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\washingmachineIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/washingmachineIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1411,7 +1411,7 @@
                 <Component class="javax.swing.JLabel" name="ironIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\ironIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/ironIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1492,7 +1492,7 @@
                 <Component class="javax.swing.JLabel" name="vaccumIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\vaccumIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/vaccumIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1573,7 +1573,7 @@
                 <Component class="javax.swing.JLabel" name="blenderIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\mixerIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/mixerIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1654,7 +1654,7 @@
                 <Component class="javax.swing.JLabel" name="toasterIcon">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Coding\NetBeans\ECS\src\main\resources\com\mycompany\ecs\Icons\toasterIcon.png"/>
+                      <Image iconType="3" name="/com/mycompany/ecs/Icons/toasterIcon.png"/>
                     </Property>
                   </Properties>
                 </Component>

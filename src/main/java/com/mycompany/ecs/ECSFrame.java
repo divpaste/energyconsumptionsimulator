@@ -9,7 +9,7 @@ class JDBCConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/ecsdb";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = ""; //Enter Your mySQL Password Here
+    private static final String PASSWORD = "divyanshu2006"; //Enter Your mySQL Password Here
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USERNAME, PASSWORD);
@@ -44,7 +44,7 @@ public class ECSFrame extends javax.swing.JFrame {
         devicePlaced = new int[14];
         deviceCount = 0;
 
-        ImageIcon img = new ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\mainLogo.png");
+        ImageIcon img = new ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/mainLogo.png"));
         this.setIconImage(img.getImage());
 
         preExistingDevices();
@@ -270,7 +270,7 @@ public class ECSFrame extends javax.swing.JFrame {
     }
 
     private void updateGlobalCost() {
-        globalCostPerHr.setText("₹ "+String.format("%.2f", totalCost) + " / hr");
+        globalCostPerHr.setText("₹ " + String.format("%.2f", totalCost) + " / hr");
     }
 
     @SuppressWarnings("unchecked")
@@ -386,7 +386,7 @@ public class ECSFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\subLogo.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/subLogo.png"))); // NOI18N
 
         user.setFont(new java.awt.Font("SimSun", 1, 24)); // NOI18N
         user.setText("dadawd");
@@ -683,7 +683,7 @@ public class ECSFrame extends javax.swing.JFrame {
         fanPanel.setBackground(new java.awt.Color(0, 255, 204));
         fanPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        fanIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\fanIcon.png")); // NOI18N
+        fanIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/fanIcon.png"))); // NOI18N
 
         fanName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         fanName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -735,7 +735,7 @@ public class ECSFrame extends javax.swing.JFrame {
         acPanel.setBackground(new java.awt.Color(0, 255, 204));
         acPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        acIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\acIcon.png")); // NOI18N
+        acIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/acIcon.png"))); // NOI18N
 
         acName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         acName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -788,7 +788,7 @@ public class ECSFrame extends javax.swing.JFrame {
         heaterPanel.setBackground(new java.awt.Color(0, 255, 204));
         heaterPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        heaterIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\heaterIcon.png")); // NOI18N
+        heaterIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/heaterIcon.png"))); // NOI18N
 
         heaterName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         heaterName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -840,7 +840,7 @@ public class ECSFrame extends javax.swing.JFrame {
         ledPanel.setBackground(new java.awt.Color(0, 255, 204));
         ledPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        ledIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\ledIcon.png")); // NOI18N
+        ledIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/ledIcon.png"))); // NOI18N
 
         ledName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         ledName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -892,7 +892,7 @@ public class ECSFrame extends javax.swing.JFrame {
         fridgePanel.setBackground(new java.awt.Color(0, 255, 204));
         fridgePanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        fridgeIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\fridgeIcon.png")); // NOI18N
+        fridgeIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/fridgeIcon.png"))); // NOI18N
 
         fridgeName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         fridgeName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -944,7 +944,7 @@ public class ECSFrame extends javax.swing.JFrame {
         microwavePanel.setBackground(new java.awt.Color(0, 255, 204));
         microwavePanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        microwaveIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\microwaveIcon.png")); // NOI18N
+        microwaveIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/microwaveIcon.png"))); // NOI18N
 
         microwaveName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         microwaveName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -996,7 +996,7 @@ public class ECSFrame extends javax.swing.JFrame {
         kettlePanel.setBackground(new java.awt.Color(0, 255, 204));
         kettlePanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        kettleIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\kettleIcon.png")); // NOI18N
+        kettleIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/kettleIcon.png"))); // NOI18N
 
         kettleName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         kettleName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1048,7 +1048,7 @@ public class ECSFrame extends javax.swing.JFrame {
         laptopPanel.setBackground(new java.awt.Color(0, 255, 204));
         laptopPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        laptopIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\laptopIcon.png")); // NOI18N
+        laptopIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/laptopIcon.png"))); // NOI18N
 
         laptopName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         laptopName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1100,7 +1100,7 @@ public class ECSFrame extends javax.swing.JFrame {
         tvPanel.setBackground(new java.awt.Color(0, 255, 204));
         tvPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        tvIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\tvIcon.png")); // NOI18N
+        tvIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/tvIcon.png"))); // NOI18N
 
         tvName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         tvName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1152,7 +1152,7 @@ public class ECSFrame extends javax.swing.JFrame {
         washingPanel.setBackground(new java.awt.Color(0, 255, 204));
         washingPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        washingIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\washingmachineIcon.png")); // NOI18N
+        washingIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/washingmachineIcon.png"))); // NOI18N
 
         washingName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         washingName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1204,7 +1204,7 @@ public class ECSFrame extends javax.swing.JFrame {
         ironPanel.setBackground(new java.awt.Color(0, 255, 204));
         ironPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        ironIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\ironIcon.png")); // NOI18N
+        ironIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/ironIcon.png"))); // NOI18N
 
         ironName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         ironName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1256,7 +1256,7 @@ public class ECSFrame extends javax.swing.JFrame {
         vaccumPanel.setBackground(new java.awt.Color(0, 255, 204));
         vaccumPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        vaccumIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\vaccumIcon.png")); // NOI18N
+        vaccumIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/vaccumIcon.png"))); // NOI18N
 
         vaccumName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         vaccumName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1308,7 +1308,7 @@ public class ECSFrame extends javax.swing.JFrame {
         blenderPanel.setBackground(new java.awt.Color(0, 255, 204));
         blenderPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        blenderIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\mixerIcon.png")); // NOI18N
+        blenderIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/mixerIcon.png"))); // NOI18N
 
         blenderName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         blenderName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1360,7 +1360,7 @@ public class ECSFrame extends javax.swing.JFrame {
         toasterPanel.setBackground(new java.awt.Color(0, 255, 204));
         toasterPanel.setPreferredSize(new java.awt.Dimension(448, 150));
 
-        toasterIcon.setIcon(new javax.swing.ImageIcon("C:\\Coding\\NetBeans\\ECS\\src\\main\\resources\\com\\mycompany\\ecs\\Icons\\toasterIcon.png")); // NOI18N
+        toasterIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ecs/Icons/toasterIcon.png"))); // NOI18N
 
         toasterName.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         toasterName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -1422,7 +1422,7 @@ public class ECSFrame extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(sidebar)
-                            .addComponent(deviceinfo, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                            .addComponent(deviceinfo, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(devicearea, javax.swing.GroupLayout.PREFERRED_SIZE, 722, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
